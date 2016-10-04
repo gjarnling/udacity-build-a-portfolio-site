@@ -1,0 +1,140 @@
+/**************************************
+* Minor breakpoints: 400px, 450px
+* Major breakpoints:
+* + 560px - Two columns
+* + 825px - Three columns
+* + 1100px - Max-width and centered
+*
+* PS. Elements are styled in the file
+* style.css. DS.
+**************************************/
+
+/**************************************
+ * Viewport 400px - Minor breakpoint
+ * ------------------------------------
+ * Add some padding around the main
+ * content and bump up the font size
+ * of the titles.
+ *************************************/
+
+@media screen and (min-width: 400px) {
+  .titles-main {
+    font-size: 36px;
+  }
+  .titles-sub {
+    font-size: 18px;
+  }
+  .projects-container {
+    padding: 0 40px;
+  }
+  .projects-title {
+    font-size: 24px;
+  }
+}
+
+/**************************************
+ * Viewport 450px - Minor breakpoint
+ * ------------------------------------
+ * Add more padding around the main
+ * content and bump up the font size
+ * of the header titles even more.
+ *************************************/
+
+@media screen and (min-width: 450px) {
+  .titles-main {
+    font-size: 42px;
+  }
+  .titles-sub {
+    font-size: 20px;
+  }
+  .projects-container {
+    padding: 0 60px;
+  }
+}
+
+/**************************************
+ * Viewport 560px - Major breakpoint
+ * ------------------------------------
+ * Put the logo and header titles next
+ * to each other. Turn the main content
+ * into two columns from one.
+ *************************************/
+
+@media screen and (min-width: 560px) {
+  .header {
+    flex-direction: row;
+  }
+  .logo {
+    margin-left: 20px;
+  }
+  .titles {
+    margin-right: 10px;
+    text-align: right;
+  }
+  .titles-main {
+    line-height: 120%;
+  }
+  .titles-sub {
+    font-size: 120%;
+  }
+  .projects-container {
+    padding: 0 20px;
+  }
+  .project {
+    display: flex;
+    width: calc(50% - 10px);
+  }
+  .projects-list .project:nth-child(odd) {
+    margin-right: 10px;
+  }
+  .projects-list .project:nth-child(even) {
+    margin-left: 10px;
+  }
+}
+
+/**************************************
+ * Viewport 825px - Major breakpoint
+ * ------------------------------------
+ * Turn the main content into three
+ * columns from two. Also center text
+ * in the footer colophon.
+ *************************************/
+
+@media screen and (min-width: 825px) {
+  .project {
+    display: flex;
+    margin: 0 20px 0 0;
+    width: calc((100% / 3) - (40px / 3 ));
+  }
+  /*
+   * first-child and not last-child
+   * since they are rendered in the
+   * reverse order
+   */
+  .projects-list .project:first-child {
+    margin-right: 0;
+  }
+  .colophon {
+    text-align: center;
+  }
+}
+
+/**************************************
+ * Viewport 1100px - Major breakpoint
+ * ------------------------------------
+ * Cap the content size and center it
+ * on the page. Also make sure the
+ * main content align properly with the
+ * rest by removing it's padding.
+ *************************************/
+
+@media screen and (min-width: 1100px) {
+  header,
+  main {
+    margin: 0 auto;
+    max-width: 1100px;
+  }
+  .projects-container {
+    padding: 0;
+  }
+}
