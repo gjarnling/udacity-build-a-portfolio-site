@@ -5,12 +5,11 @@
   * normalize.css included in the HTML
   * file. Below set the box model to
   * include padding and margins, the
-  * base font to Futura PT 16px with a
-  * line height of 140% or 22.4px. It
-  * then resets the browser default
-  * margin on figures and makes sure a
-  * image never spills over the
-  * viewport.
+  * base font to Futura PT 18px with a
+  * line height of 140%. It then resets
+  * the browser default margin on
+  * figures and makes sure a image never
+  * spills over the viewport.
   *
   * PS. Responsive properties is defined
   * in responsive.css. DS.
@@ -105,7 +104,7 @@ img {
  */
 
 .hero-image-caption {
-  font-size: 16px;
+  font-size: 14px;
   margin-top: -55px;
   padding: 12px 8px;
   text-align: right;
