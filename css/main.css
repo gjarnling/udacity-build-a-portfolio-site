@@ -284,10 +284,11 @@ img {
 }
 
 .card-link-text {
+  display: inline-block;
   font-size: 13px;
   font-weight: bold;
+  line-height: 18px;
   text-transform: uppercase;
-  vertical-align: super;
 }
 
 /*
