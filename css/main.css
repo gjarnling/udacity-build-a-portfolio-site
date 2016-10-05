@@ -302,7 +302,7 @@ img {
 }
 
 .card-link:visited {
-  color: rgb(81,45,168);
+  color: rgba(81,45,168,0.54);
 }
 
 /*
