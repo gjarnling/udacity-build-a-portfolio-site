@@ -1,19 +1,19 @@
- /**************************************
-  * General styles
-  * ------------------------------------
-  * Browser default are overwritten with
-  * normalize.css included in the HTML
-  * file. Below set the box model to
-  * include padding and margins, the
-  * base font to Futura PT 18px with a
-  * line height of 140%. It then resets
-  * the browser default margin on
-  * figures and makes sure a image never
-  * spills over the viewport.
-  *
-  * PS. Responsive properties is defined
-  * in responsive.css. DS.
-  *************************************/
+/**************************************
+ * General styles
+ * ------------------------------------
+ * Browser default are overwritten with
+ * normalize.css included in the HTML
+ * file. Below set the box model to
+ * include padding and margins, the
+ * base font to Futura PT 18px with a
+ * line height of 140%. It then resets
+ * the browser default margin on
+ * figures and makes sure a image never
+ * spills over the viewport.
+ *
+ * PS. Responsive properties is defined
+ * in responsive.css. DS.
+ *************************************/
 
 * {
   box-sizing: border-box;
@@ -34,20 +34,20 @@ img {
 }
 
 /**************************************
- * Introduction
- * ------------------------------------
- * The site contains of a header, a
- * main section and a footer.
- *************************************/
+* Introduction
+* ------------------------------------
+* The site contains of a header, a
+* main section and a footer.
+*************************************/
 
 
 
 /**************************************
- * Header
- * ------------------------------------
- * Top part of the page. Contains a
- * logo and the site titles.
- *************************************/
+* Header
+* ------------------------------------
+* Top part of the page. Contains a
+* logo and the site titles.
+*************************************/
 
 .header {
   align-items: center;
@@ -85,13 +85,13 @@ img {
 }
 
 /**************************************
- * Hero image
- * ------------------------------------
- * Big image seperating the header and
- * main area. Images are loaded in HTML
- * depending on viewport size and DPI
- * but all have the ratio 16:9.
- *************************************/
+* Hero image
+* ------------------------------------
+* Big image seperating the header and
+* main area. Images are loaded in HTML
+* depending on viewport size and DPI
+* but all have the ratio 16:9.
+*************************************/
 
 .hero-image-container {
   border-top: 5px solid rgba(51,51,51,0.27);
@@ -100,8 +100,8 @@ img {
 }
 
 /*
- * Caption moved on top of the hero image
- */
+* Caption moved on top of the hero image
+*/
 
 .hero-image-caption {
   font-size: 14px;
@@ -121,12 +121,12 @@ img {
 }
 
 /**************************************
- * Projects (Main section)
- * ------------------------------------
- * Contains a list of all the projects
- * listed on the site. Each one is
- * represented as a card; see below.
- *************************************/
+* Projects (Main section)
+* ------------------------------------
+* Contains a list of all the projects
+* listed on the site. Each one is
+* represented as a card; see below.
+*************************************/
 
 .projects-container {
   margin: 40px 0;
@@ -148,18 +148,18 @@ img {
 }
 
 /*
- * Card classes
- * ------------------------------------
- * Every project is represented as a
- * card. On top each one has an image.
- * Below that is a header followed by
- * a description of the project. At
- * the bottom each card has a list of
- * links for viewing the project, see
- * it's source code and more info about
- * it. The cards can be reordered with
- * the order classes.
- */
+* Card classes
+* ------------------------------------
+* Every project is represented as a
+* card. On top each one has an image.
+* Below that is a header followed by
+* a description of the project. At
+* the bottom each card has a list of
+* links for viewing the project, see
+* it's source code and more info about
+* it. The cards can be reordered with
+* the order classes.
+*/
 
 .card {
   align-items: flex-start;
@@ -192,9 +192,9 @@ img {
 }
 
 /*
- * CARD: HEADER
- * Set the card top (background) image
- */
+* CARD: HEADER
+* Set the card top (background) image
+*/
 
 .card-header-animal {
   background: rgba(51,51,51,0.27) url(../imgs/logo-css3.svg) 50% 30%/50% no-repeat;
@@ -215,8 +215,8 @@ img {
 }
 
 /*
- * CARD: TITLE
- */
+* CARD: TITLE
+*/
 
 .card-title {
   background: #fff;
@@ -229,17 +229,17 @@ img {
 }
 
 /*
- * A green check to the right of the header
- * to indicate I met the specifications
- */
+* A green check to the right of the header
+* to indicate I met the specifications
+*/
 
 .passed {
   background: #fff url(../imgs/icon-check-green.svg) calc(100% - 12px) 18px no-repeat;
 }
 
 /*
- * CARD: DESCRIPTION
- */
+* CARD: DESCRIPTION
+*/
 
 .card-description {
   margin: 0;
@@ -248,8 +248,8 @@ img {
 }
 
 /*
- * CARD: LINKS
- */
+* CARD: LINKS
+*/
 
 .card-links {
   align-self: flex-end;
@@ -261,23 +261,23 @@ img {
 }
 
 /*
- * Adding padding to each link to make it
- * big enough for touch
- */
+* Adding padding to each link to make it
+* big enough for touch
+*/
 
 .card-link {
   border-right: 1px solid #eee;
   color: rgba(51,51,51,0.54);
   flex: auto;
-  padding: 8px;
+  padding: 8px 0 4px 0;
   text-align: center;
   text-decoration: none;
   transition: color 0.2s;
 }
 
 /*
- * Remove right border from last icon link
- */
+* Remove right border from last icon link
+*/
 
 .card-link:last-child {
   border-right: 0;
@@ -287,14 +287,15 @@ img {
   display: inline-block;
   font-size: 13px;
   font-weight: bold;
-  line-height: 18px;
+  line-height: 26px;
   text-transform: uppercase;
+  vertical-align: top;
 }
 
 /*
- * The card icon links at the bottom
- * of every card
- */
+* The card icon links at the bottom
+* of every card
+*/
 
 .card-link:hover {
   color: rgb(33,150,243);
@@ -305,8 +306,8 @@ img {
 }
 
 /*
- * Disabled card icon link
- */
+* Disabled card icon link
+*/
 
 .disabled {
   color: rgba(51,51,51,0.27);
@@ -318,13 +319,13 @@ img {
 }
 
 /**************************************
- * Footer
- * ------------------------------------
- * The footer consist of two parts. The
- * top part is a list with links for
- * sharing this site on social media.
- * Below that is a short colophon.
- *************************************/
+* Footer
+* ------------------------------------
+* The footer consist of two parts. The
+* top part is a list with links for
+* sharing this site on social media.
+* Below that is a short colophon.
+*************************************/
 
 .footer {
   background: rgba(51,51,51,0.87);
@@ -343,9 +344,9 @@ img {
 }
 
 /*
- * Adding padding to each link to make it
- * big enough for touch
- */
+* Adding padding to each link to make it
+* big enough for touch
+*/
 
 .sharing-link {
   background: rgba(255,255,255,0.12);
