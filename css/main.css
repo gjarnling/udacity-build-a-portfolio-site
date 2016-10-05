@@ -269,7 +269,7 @@ img {
   border-right: 1px solid #eee;
   color: rgba(51,51,51,0.54);
   flex: auto;
-  padding: 12px 8px;
+  padding: 8px;
   text-align: center;
   text-decoration: none;
   transition: color 0.2s;
