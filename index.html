@@ -12,6 +12,11 @@
   <!-- Load the Futura PT font from TypeKit -->
   <script src="https://use.typekit.net/qew8otm.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <!-- Polyfill for picture elements etc -->
+  <script>
+    document.createElement( "picture" );
+  </script>
+  <script src="./js/picturefill.js" async></script>
   <title>Gustaf Jarnling: Front-End Developer</title>
 </head>
 <body>
