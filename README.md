@@ -26,7 +26,7 @@ The second block started with repetition of HTML, CSS, and Boxes. It then went o
 We then looked at other frameworks, including [Bootstrap](http://getbootstrap.com/). During this block we were given quizes to make us more familiar with what Bootstrap has to offer. We also looked at how to customize Bootstrap to include the features you need and why minified versions are prefered.
 
 ### Responsive Web Design Fundamentals
-This block started off with a discussion about why responsiveness matters. We looked at sites on mobile and set up our workflow, using Chrome's Dev Tools for device emulation as well as remote debugging on mobile devices.
+This block started off with a discussion about why responsiveness matters. We looked at sites on mobile and set up our workflow, using [Chrome's Dev Tools](https://developer.chrome.com/devtools) for device emulation as well as remote debugging on mobile devices.
 
 We then looked at why starting small and building up is the way to go. It covered things like pixelation, DPR, CSS pixels, viewports and relative sizes. Apart from that it contained a discussion on tap targets and tap target sizes.
 
