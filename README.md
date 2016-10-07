@@ -7,6 +7,13 @@ We were given a design mockup and told to replicate the design using HTML and CS
 Apart from the above we were given quite an extensive project rubric including everything from design, responsiveness, seperation of concerns to code quality.
 
 ## Prerequisites
+This block of lessons is the longest in the whole of the course clocking in at 33.5 hours. It is made up of five blocks:
+
+* Sizing Elements
+* Intro to HTML and CSS
+* Responsive Web Design Fundamentals
+* Responsive Images
+* Project
 
 ## Solution
 
