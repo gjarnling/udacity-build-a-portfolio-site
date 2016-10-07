@@ -86,5 +86,12 @@ With my major breakpoints as a guideline I used Grunt to create five images for 
 
 Using the picture and source elements the browser only fetch a big enough image for the viewport, taking the screen pixel density into account.
 
+#### Main Content
+The main content contains one header: Featured work. After that each projected is listed and represented as a card. Notice that even tho the projects are listed in the correct order in the source HTML file they represented in the reverse order on the site.
+
+Every card has a header image on top followed by a card header. After that is a short description of the project. On the bottom each card has three links; one leading to more information about the project, one to the source file(s), and one to view the final result.
+
+On small viewports each card is stacked one on top of the other. The first major breakpoint puts the main content into two columns. This is turned into three columns by the third major breakpoint.
+
 ## Closure
 The solution met the specifications.
