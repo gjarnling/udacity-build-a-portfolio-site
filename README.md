@@ -46,6 +46,15 @@ The third lesson covered using markup as images. Everything from CSS background 
 The fourth and last lesson covered how to make images fully responsive using [the image elements srcset and sizes attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img), the [picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) and [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source) elements. It also covered accessibility concerning images.
 
 ## Solution
+Most concepts presented in the course I knew since before. But some of them were new to me, so I decided to stick with those when implementing the project to get experience using them.
+
+As for design I decided to stick with the design mockup we had been given. We were told to experiment and of course personalize it, which I did. But the overall layout, which we can call "traditional", was kept.
+
+For implementing the layout we had the option to either use a framework or to build our layout using flexbox. I have worked with flexbox before but never enough to make me really comfortable, so I chose to use it. A reference I came back to again and again during development was [CSS Tricks A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). I highly recommend it.
+
+Much of the course covered responsive images. Since [images makes up for the most bytes per page by content type on avarage](http://mobile.httparchive.org/interesting.php#bytesperpage) this makes a lot of sense. The concept of srcset and sizes attributes on images aswell as the picture and source elements were new to me, so I wanted to use these as much as possible. I went through several iterations of the site before I finished it and put most of the effort into using these techniques. I'm also glad I spent a lot of time getting to know and using Grunt; regardless of weather I will use it or some other task manager I'm very happy to feel comfortable using them, since they speed things up a lot when working with a lot of images.
+
+For remote debugging I ended up using a tool not mentioned in the course material called [Ghostlab](https://www.vanamco.com/ghostlab/). So far I have been very pleased with this choice.
 
 ## Closure
 The solution met the specifications.
