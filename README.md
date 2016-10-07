@@ -73,5 +73,16 @@ I decided to do as the course had taught me and work from small to big. For the 
 
 Of course all files used are valid [HTML5](https://www.w3.org/TR/html5/) and [CSS3](https://www.w3.org/Style/CSS/) files, validated with [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 
+#### Header
+The header contains a logo, my name and title. It also contains a image of an abstract painting.
+
+Their representation changes depending on the viewport size. For smaller viewports they are presented on top of each other; the logo, my name, my title and the painting one after the other. On larger viewports the logo moves to the left with my name and title to the right with the image now set as a background.
+
+In its original state the image is huge at 10.2MB with the dimensions 3390x3671 pixels. First I cropped it to only contain the part I wanted. This reduced the size to 2.23MB and the dimensions to 3390x1323 pixels. Since the content of the site never will grow larget than 1100 pixels I decided to set a maximum size of the image to 2200 pixel, to accomodate screens with a higher pixel density.
+
+With my major breakpoints as a guideline I used Grunt to create five images for different viewport sizes. I also decided that a compression level of 50 kept the quality of the photo. This way the file size was dramatically reduced to 439kB to 48.1kB.
+
+Using the picture and source elements the browser only fetch a big enough image for the viewport, taking the screen pixel density into account.
+
 ## Closure
 The solution met the specifications.
