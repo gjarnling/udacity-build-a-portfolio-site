@@ -39,4 +39,4 @@ The fifth and last lesson in this block covered responsive tables and once again
 ## Solution
 
 ## Closure
-The solution has been submitted but is still being evaluated.
+The solution met the specifications.
