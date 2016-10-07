@@ -3,13 +3,7 @@
  * ------------------------------------
  * Browser default are overwritten with
  * normalize.css included in the HTML
- * file. Below set the box model to
- * include padding and margins, the
- * base font to Futura PT 18px with a
- * line height of 140%. It then resets
- * the browser default margin on
- * figures and makes sure a image never
- * spills over the viewport.
+ * file.
  *
  * PS. Responsive properties is defined
  * in responsive.css. DS.
@@ -20,9 +14,9 @@
 }
 
 body {
-  background: #eaeaea;
+  background: #eaeaea url(../imgs/bg-small.svg) 0 100%/100% no-repeat;
   color: rgba(51,51,51,0.54);
-  font: 18px/1.4 'futura-pt', sans-serif;
+  font: 16px/1.4 'futura-pt', sans-serif;
 }
 
 figure {
@@ -32,15 +26,6 @@ figure {
 img {
   max-width: 100%;
 }
-
-/**************************************
-* Introduction
-* ------------------------------------
-* The site contains of a header, a
-* main section and a footer.
-*************************************/
-
-
 
 /**************************************
 * Header
@@ -81,6 +66,7 @@ img {
 
 .titles-sub {
   font-size: 16px;
+  font-weight: 500;
   margin: 0;
 }
 
@@ -89,31 +75,13 @@ img {
 * ------------------------------------
 * Big image seperating the header and
 * main area. Images are loaded in HTML
-* depending on viewport size and DPI
-* but all have the ratio 16:9.
+* depending on viewport size and DPI.
 *************************************/
 
 .hero-image-container {
   border-top: 5px solid rgba(51,51,51,0.27);
-  margin-top: 20px;
+  margin: 20px 0 -6px 0;
   width: 100%;
-}
-
-/*
-* Caption moved on top of the hero image
-*/
-
-.hero-image-caption {
-  font-size: 14px;
-  margin-top: -50px;
-  padding: 12px 8px;
-  text-align: right;
-}
-
-.hero-image-caption-text {
-  background: rgba(255,255,255,0.87);
-  border-radius: 4px;
-  padding: 4px 6px;
 }
 
 .hero-image {
@@ -125,7 +93,7 @@ img {
 * ------------------------------------
 * Contains a list of all the projects
 * listed on the site. Each one is
-* represented as a card; see below.
+* represented as a card; more below.
 *************************************/
 
 .projects-container {
@@ -234,7 +202,7 @@ img {
 */
 
 .passed {
-  background: #fff url(../imgs/icon-check-green.svg) calc(100% - 12px) 18px no-repeat;
+  background: #fff url(../imgs/icon-check-green.svg) calc(100% - 12px) 16px no-repeat;
 }
 
 /*
@@ -266,7 +234,7 @@ img {
 */
 
 .card-link {
-  border-right: 1px solid #eee;
+  border-right: 1px solid rgba(51,51,51,0.12);
   color: rgba(51,51,51,0.54);
   flex: auto;
   padding: 8px 0 4px 0;
@@ -286,7 +254,7 @@ img {
 .card-link-text {
   display: inline-block;
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 26px;
   text-transform: uppercase;
   vertical-align: top;
@@ -321,26 +289,24 @@ img {
 /**************************************
 * Footer
 * ------------------------------------
-* The footer consist of two parts. The
-* top part is a list with links for
-* sharing this site on social media.
-* Below that is a short colophon.
+* The footer consist of two parts. A
+* list with links for sharing this
+* site on social media and a short
+* colophon.
 *************************************/
 
 .footer {
   background: rgba(51,51,51,0.87);
   border-top: 5px solid rgba(51,51,51,0.87);
-  margin-top: 20px;
+  width: 100%;
 }
 
 .sharing {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   list-style: none;
   margin: 0 auto;
-  padding: 20px 20px 16px 20px;
-  max-width: 700px;
+  padding: 0;
 }
 
 /*
@@ -348,10 +314,26 @@ img {
 * big enough for touch
 */
 
-.sharing-link {
+.sharing-icon {
   background: rgba(255,255,255,0.12);
-  border-radius: 4px;
-  padding: 14px 16px 8px 16px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+              0 1px 5px 0 rgba(0, 0, 0, 0.12),
+              0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px 8px 16px;
+}
+
+.sharing-link {
+  background: rgba(255,255,255,0.27);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+              0 1px 5px 0 rgba(0, 0, 0, 0.12),
+              0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin-left: 20px;
+  padding: 12px 16px 8px 16px;
   transition: box-shadow 0.2s;
 }
 
@@ -361,13 +343,39 @@ img {
               0 3px 5px -1px rgba(0, 0, 0, 0.4);
 }
 
+.icon-facebook {
+  background: rgba(59,89,152,0.54);
+  transition: background 0.2s;
+}
+
+.icon-facebook:hover {
+  background: rgba(59,89,152,1);
+}
+
+.icon-googleplus {
+  background: rgba(211,72,54,0.54);
+}
+
+.icon-googleplus:hover {
+  background: rgba(211,72,54,1);
+  transition: background 0.2s;
+}
+
+.icon-twitter {
+  background: rgba(64,153,255,0.54);
+  transition: background 0.2s;
+}
+
+.icon-twitter:hover {
+  background: rgba(64,153,255,1);
+}
+
 .colophon {
-  background: rgba(255,255,255,0.12);
   color: rgba(255,255,255,0.54);
-  font-size: 16px;
   font-style: italic;
-  margin: 0;
+  margin: 0 auto;
   padding: 20px;
+  text-align: center;
 }
 
 .colophon-link {
