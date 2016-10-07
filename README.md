@@ -23,7 +23,7 @@ The first block covered [the CSS box model](https://developer.mozilla.org/en-US/
 ### Intro to HTML and CSS
 The second block started with repetition of HTML, CSS, and Boxes. It then went on to handle responsive layout and CSS Frameworks. To start of we created out own framework for responsive layouts.
 
-We then looked at other frameworks, including [Bootstrap](http://getbootstrap.com/). During this block we were given some quizes to make us more familiar with what Bootstrap has to offer. We also looked out how to customize Bootstrap to include the features you need and why minified versions are prefered.
+We then looked at other frameworks, including [Bootstrap](http://getbootstrap.com/). During this block we were given quizes to make us more familiar with what Bootstrap has to offer. We also looked at how to customize Bootstrap to include the features you need and why minified versions are prefered.
 
 ## Solution
 
