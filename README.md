@@ -8,3 +8,4 @@ The fourth project in Udacity Front-End Developer Nanodegree program called "Bui
 ## Solution
 
 ## Closure
+The solution has been submitted but is still being evaluated.
