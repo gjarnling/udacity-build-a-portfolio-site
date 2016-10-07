@@ -36,6 +36,15 @@ The fourth lesson in this block covered common responsive layouts. In summary I 
 
 The fifth and last lesson in this block covered responsive tables and once again introduced three design patterns for dealing with them: hidden columns, no more tables, and contained scrolling. It also covered how to make fonts responsive and defining minor breakpoints.
 
+### Repsonsive Images
+The first lesson was basically a short repition covering the importance of responsive images and how to setup remote debugging on mobile.
+
+The second lesson covered different ways to size images. It also introduced some less known CSS units. Apart from this it treated different types of images and when to use which. Lastely it looked out how to optimize images and the related workflow using [Grunt](http://gruntjs.com/).
+
+The third lesson covered using markup as images. Everything from CSS background images, [Unicode symbol characters](http://unicode-table.com/en/#control-character) to [icon fonts](http://weloveiconfonts.com/).
+
+The fourth and last lesson covered how to make images fully responsive using [the image elements srcset and sizes attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img), the [picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) and [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source) elements. It also covered accessibility concerning images.
+
 ## Solution
 
 ## Closure
