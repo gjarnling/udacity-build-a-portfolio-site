@@ -63,9 +63,11 @@ We were given a design mockup but told to personalize it, since after all it's o
 * Main content
 * Footer
 
-Even tho this isn't a design course I made some overall decisions regarding the design. I chose to use the [Futura PT font from Paratype](http://www.paratype.com/pstore/fonts/Futura-PT.htm) served by [Adobe TypeKit](https://typekit.com/) as my font for the whole site. For colors I went with a dark grey and several different opacities, inspired by the [Google Material Design guidelines](https://material.google.com/). I also chose to use the [Google Material Design Web Icon Font](https://design.google.com/icons/) for smaller icons. The main source of colors come from the header image, an abstract painting.
+Even tho this isn't a design course I made some overall decisions regarding the design. I chose to use the [Futura PT font from Paratype](http://www.paratype.com/pstore/fonts/Futura-PT.htm) served by [Adobe TypeKit](https://typekit.com/) as my font for the whole site. For colors I went with a dark grey and several different opacities, inspired by the [Google Material Design guidelines](https://material.google.com/).
 
-I decided to do as the course had taught me and work from small to big. For the first, small layout, everything is stacked on top of each other. Using the content as guidance I found out I needed three major breakpoints:
+I also chose to use the [Google Material Design Web Icon Font](https://design.google.com/icons/) for smaller icons. The main source of colors come from the header image, an abstract painting. To add some more contrast I also added a background to the site, mainly visible in the lower part. The header image is the only image used on the site that is a rasterized image (JPEG), the rest are vectorised SVG files to keep the file sizes as small as possible without losing the ability to scale.
+
+Working from small to big, in the small layout everything is stacked on top of each other. Using the content as guidance I found out I needed three major breakpoints:
 
 * 600 pixels: Change header and present main content in two columns
 * 870 pixels: Present main content in three columns
