@@ -93,5 +93,10 @@ Every card has a header image on top followed by a card header. After that is a 
 
 On small viewports each card is stacked one on top of the other. The first major breakpoint puts the main content into two columns. This is turned into three columns by the third major breakpoint.
 
+#### Footer
+The footer contains two blocks of content. One part contains social media icons for sharing the site. The other part contains a very short colophon.
+
+On smaller viewports the social media links are presented on top of the colophon. The second major breakpoint puts the colophon to the left while the social media links are put to the right. This stays the same during the third breakpoint.
+
 ## Closure
 The solution met the specifications.
