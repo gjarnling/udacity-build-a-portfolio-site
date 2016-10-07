@@ -35,35 +35,20 @@
         <picture>
           <!-- Only download a big enough image for the viewport -->
           <source media="screen and (min-width: 1100px)" srcset="
-            ./imgs/photo-kj-old-news-16x9-2200_large_2x.webp 2x,
-            ./imgs/photo-kj-old-news-16x9-1100_large_1x.webp 1x" type="image/webp">
-          <source media="screen and (min-width: 1100px)" srcset="
-            ./imgs/photo-kj-old-news-16x9-2200_large_2x.jpg 2x,
-            ./imgs/photo-kj-old-news-16x9-1100_large_1x.jpg 1x" type="image/jpeg">
-          <source media="screen and (min-width: 700px)" srcset="
-            ./imgs/photo-kj-old-news-16x9-1650_medium_2x.webp 2x,
-            ./imgs/photo-kj-old-news-16x9-825_medium_1x.webp 1x" type="image/webp">
-          <source media="screen and (min-width: 1100px)" srcset="
-            ./imgs/photo-kj-old-news-16x9-1650_medium_2x.jpg 2x,
-            ./imgs/photo-kj-old-news-16x9-825_medium_1x.jpg 1x" type="image/jpeg">
-          <source media="screen and (min-width: 400px)" srcset="
-            ./imgs/photo-kj-old-news-16x9-825_medium_1x.webp 2x,
-            ./imgs/photo-kj-old-news-16x9-560_small.webp 1x" type="image/webp">
-          <source media="screen and (min-width: 1100px)" srcset="
-            ./imgs/photo-kj-old-news-16x9-825_medium_1x.jpg 2x,
-            ./imgs/photo-kj-old-news-16x9-560_small.jpg 1x" type="image/jpeg">
+            ./imgs/photo-abstract-2200_large_2x.jpeg 2x,
+            ./imgs/photo-abstract-1100_large_1x.jpeg 1x" type="image/jpeg">
+          <source media="screen and (min-width: 825px)" srcset="
+            ./imgs/photo-abstract-1650_medium_2x.jpeg 2x,
+            ./imgs/photo-abstract-825_medium_1x.jpeg 1x" type="image/jpeg">
+          <source media="screen and (min-width: 560px)" srcset="
+            ./imgs/photo-abstract-1100_large_1x.jpeg 2x,
+            ./imgs/photo-abstract-560_medium.jpeg 1x" type="image/jpeg">
           <!-- The smallest image used for fallback -->
-          <img src="./imgs/photo-kj-old-news-16x9-560_small.jpg" srcset="./imgs/photo-kj-old-news-16x9-825_medium_1x.jpg 825w" sizes="100vw" alt="A photo of worn papers" class="hero-image">
+          <img src="./imgs/photo-abstract-560_medium.jpeg" srcset="./imgs/photo-abstract-825_medium_1x.jpeg 2x" alt="Abstract painting" class="hero-image">
         </picture>
-        <!-- The captioned is overlaid on the hero image -->
-        <figcaption class="hero-image-caption">
-          <span class="hero-image-caption-text">
-            <q><a rel="noopener noreferrer" target="_blank" href="https://www.flickr.com/photos/tinajarnling/28945603836/">Old News</a></q> by Kerstin Jarnling © 2016
-          </span>
-        </figcaption>
       </figure>
     </header>
-    <main>
+    <main class="main-content">
       <article class="projects-container">
         <h2 class="projects-title">Featured Work</h2>
         <!-- The projects are rendered in reversed order -->
@@ -159,28 +144,28 @@
     <footer class="footer">
       <!-- List of links for sharing on social media -->
       <ul class="sharing">
-        <li>
+        <li class="sharing-icon">
           <img src="./imgs/icon-sharing-grey.svg" alt="">
         </li>
         <li>
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgithub.com%2Fgjarnling&amp;src=sdkpreparse" rel="noopener noreferrer" target="_blank" class="sharing-link">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgithub.com%2Fgjarnling&amp;src=sdkpreparse" rel="noopener noreferrer" target="_blank" class="sharing-link icon-facebook">
             <img src="./imgs/icon-facebook-white.svg" alt="">
           </a>
         </li>
         <li>
-          <a href="https://plus.google.com/share?url=https%3A%2F%2Fgithub.com%2Fgjarnling" rel="noopener noreferrer" target="_blank" class="sharing-link">
+          <a href="https://plus.google.com/share?url=https%3A%2F%2Fgithub.com%2Fgjarnling" rel="noopener noreferrer" target="_blank" class="sharing-link icon-googleplus">
             <img src="./imgs/icon-googleplus-white.svg" alt="">
           </a>
         </li>
         <li>
-          <a href="http://twitter.com/share?text=Gustaf%20Jarnling%20Github&url=http%3A%2F%2Fgithub.com%2Fgjarnling%2F" rel="noopener noreferrer" target="_blank" class="sharing-link">
+          <a href="http://twitter.com/share?text=Gustaf%20Jarnling%20Github&url=http%3A%2F%2Fgithub.com%2Fgjarnling%2F" rel="noopener noreferrer" target="_blank" class="sharing-link icon-twitter">
             <img src="./imgs/icon-twitter-white.svg" alt="">
           </a>
         </li>
       </ul>
       <!-- The site colophon -->
       <p class="colophon">
-        This website was developed by <a href="https://github.com/gjarnling/" rel="noopener noreferrer" target="_blank" class="colophon-link">Gustaf Jarnling</a> as part of a project in the <a href="https://www.udacity.com/" rel="noopener noreferrer" target="_blank" class="colophon-link">Udacity</a> Font-End Developer Nanodegree program.
+        This website was developed by <a href="https://github.com/gjarnling/" rel="noopener noreferrer" target="_blank" class="colophon-link">Gustaf Jarnling</a> © 2016 as part of a project in the <a href="https://www.udacity.com/" rel="noopener noreferrer" target="_blank" class="colophon-link">Udacity</a> Font-End Developer Nanodegree program.
       </p>
     </footer>
   </body>
