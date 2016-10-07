@@ -15,6 +15,9 @@ This block of lessons is the longest in the whole of the course clocking in at 3
 * Responsive Images
 * Project
 
+### Sizing Elements
+The first block covered [the CSS box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model) and [semantic elements in HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5). After this we were given a related problem set.
+
 ## Solution
 
 ## Closure
