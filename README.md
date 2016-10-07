@@ -82,7 +82,7 @@ Their representation changes depending on the viewport size. For smaller viewpor
 
 In its original state the image is huge at 10.2MB with the dimensions 3390x3671 pixels. First I cropped it to only contain the part I wanted. This reduced the size to 2.23MB and the dimensions to 3390x1323 pixels. Since the content of the site never will grow larget than 1100 pixels I decided to set a maximum size of the image to 2200 pixel, to accomodate screens with a higher pixel density.
 
-With my major breakpoints as a guideline I used Grunt to create five images for different viewport sizes. I also decided that a compression level of 50 kept the quality of the photo. This way the file size was dramatically reduced to 439kB to 48.1kB.
+With my major breakpoints as a guideline I used Grunt to create five images for different viewport sizes. I also decided that a compression level of 50 kept the quality of the photo. This way the file size was dramatically reduced to 439kB for the biggest all the way down to 48.1kB for the smallest.
 
 Using the picture and source elements the browser only fetch a big enough image for the viewport, taking the screen pixel density into account.
 
