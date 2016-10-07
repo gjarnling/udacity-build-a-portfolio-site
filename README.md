@@ -65,6 +65,12 @@ We were given a design mockup but told to personalize it, since after all it's o
 
 Even tho this isn't a design course I made some overall decisions regarding the design. I chose to use the [Futura PT font from Paratype](http://www.paratype.com/pstore/fonts/Futura-PT.htm) served by [Adobe TypeKit](https://typekit.com/) as my font for the whole site. For colors I went with a dark grey and several different opacities, inspired by the [Google Material Design guidelines](https://material.google.com/). I also chose to use the [Google Material Design Web Icon Font](https://design.google.com/icons/) for smaller icons. The main source of colors come from the header image, an abstract painting.
 
+I decided to do as the course had taught me and work from small to big. For the first, small layout, everything is stacked on top of each other. Using the content as guidance I found out I needed three major breakpoints:
+
+* 600 pixels: Change header and present main content in two columns
+* 870 pixels: Present main content in three columns
+* 1100 pixels: Set max width to content and center it
+
 Of course all files used are valid [HTML5](https://www.w3.org/TR/html5/) and [CSS3](https://www.w3.org/Style/CSS/) files, validated with [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 
 ## Closure
