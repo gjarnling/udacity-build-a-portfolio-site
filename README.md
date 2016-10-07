@@ -56,5 +56,16 @@ I'm also glad I spent a lot of time getting to know and using [Grunt](http://gru
 
 For remote debugging I ended up using a tool not mentioned in the course material called [Ghostlab](https://www.vanamco.com/ghostlab/). So far I have been very pleased with this choice.
 
+### Design & Implementation
+We were given a design mockup but told to personalize it, since after all it's our own portfolio. I chose to stick with the basic layout given therein. The site contains three parts:
+
+* Header
+* Main content
+* Footer
+
+Even tho this isn't a design course I made some overall decisions regarding the design. I chose to use the [Futura PT font from Paratype](http://www.paratype.com/pstore/fonts/Futura-PT.htm) served by [Adobe TypeKit](https://typekit.com/) as my font for the whole site. For colors I went with a dark grey and several different opacities, inspired by the [Google Material Design guidelines](https://material.google.com/). I also chose to use the [Google Material Design Web Icon Font](https://design.google.com/icons/) for smaller icons. The main source of colors come from the header image, an abstract painting.
+
+Of course all files used are valid [HTML5](https://www.w3.org/TR/html5/) and [CSS3](https://www.w3.org/Style/CSS/) files, validated with [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+
 ## Closure
 The solution met the specifications.
