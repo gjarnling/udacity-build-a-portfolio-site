@@ -43,7 +43,7 @@ The second lesson covered different ways to size images with CSS. It also introd
 
 The third lesson covered using markup as images. Everything from CSS background images, [Unicode symbol characters](http://unicode-table.com/en/#control-character) to [icon fonts](http://weloveiconfonts.com/).
 
-The fourth and last lesson covered how to make images fully responsive using [the image elements srcset and sizes attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img), the [picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) and [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source) elements. It also covered accessibility concerning images.
+The fourth and last lesson covered how to make fully responsive images using [the image element srcset and sizes attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img), the [picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) and [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source) elements. It also covered accessibility in regard to images.
 
 ## Solution
 Most concepts presented in the course I knew since before. But some of them were new to me, so I decided to stick with those when implementing the project to get experience using them.
