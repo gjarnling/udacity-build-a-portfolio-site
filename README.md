@@ -21,7 +21,7 @@ Below are a short summary of each block; just be adviced that this in no way is 
 The first block covered [the CSS box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model) and [semantic elements in HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5). After this we were given a related problem set.
 
 ### Intro to HTML and CSS
-The second block started with repetition of HTML, CSS, and Boxes. It then went on to handle responsive layout and CSS Frameworks. To start of we created out own framework for responsive layouts.
+The second block started with a repetition of HTML, CSS, and Boxes. It then went on to handle responsive layout and CSS Frameworks. To start of we created out own framework for responsive layouts.
 
 We then looked at other frameworks, including [Bootstrap](http://getbootstrap.com/). During this block we were given quizes to make us more familiar with what Bootstrap has to offer. We also looked at how to customize Bootstrap to include the features you need and why minified versions are prefered.
 
