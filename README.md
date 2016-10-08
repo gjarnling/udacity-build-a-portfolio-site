@@ -39,7 +39,7 @@ The fifth and last lesson in this block covered responsive tables and once again
 ### Repsonsive Images
 The first lesson was basically a short repetition covering the importance of responsive images and how to setup remote debugging on mobile.
 
-The second lesson covered different ways to size images. It also introduced some less known CSS units. Apart from this it treated different types of images and when to use which. Lastely it looked out how to optimize images and the related workflow using [Grunt](http://gruntjs.com/).
+The second lesson covered different ways to size images with CSS. It also introduced some lesser known CSS units. Apart from this it treated different types of images, like JPEG, PNG and SVG, and when to use which and why. Lastely it looked out how to optimize images and the related workflow using [Grunt](http://gruntjs.com/).
 
 The third lesson covered using markup as images. Everything from CSS background images, [Unicode symbol characters](http://unicode-table.com/en/#control-character) to [icon fonts](http://weloveiconfonts.com/).
 
