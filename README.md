@@ -28,7 +28,7 @@ We then looked at other frameworks, including [Bootstrap](http://getbootstrap.co
 ### Responsive Web Design Fundamentals
 This block started off with a discussion about why responsiveness matters. We looked at sites on mobile and set up our workflow, using [Chrome's Dev Tools](https://developer.chrome.com/devtools) for device emulation as well as remote debugging on mobile devices.
 
-We then looked at why starting small and building up is the way to go. It covered things like pixelation, DPR, CSS pixels, viewports and relative sizes. Apart from that it contained a discussion on tap targets and tap target sizes.
+We then looked at why starting small and building up is the way to go. It covered things like pixelation, DPR, CSS pixels, viewports and relative sizes. It also covered targets and tap target sizes.
 
 Lesson three covered the use of media queries, how to pick breakpoints and why the content should be the guide of doing so. It also covered grids and how to set them up using [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes).
 
