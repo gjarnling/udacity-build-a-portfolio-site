@@ -21,9 +21,9 @@ Below is a short summary of each block; just be adviced that this in no way is a
 The first block covered [the CSS box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model) and [semantic elements in HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5). It was followed by a related problem set.
 
 ### Intro to HTML and CSS
-The second block started with a repetition of HTML, CSS, and Boxes. It then went on to handle responsive layout and CSS Frameworks. To start off we created out own framework for responsive layouts.
+The second block started with a repetition of HTML, CSS, and Boxes. Responsive layout and CSS Frameworks were described and a framework for responsive layouts were created.
 
-We then looked at other frameworks, including [Bootstrap](http://getbootstrap.com/). During this block we were given quizes to make us more familiar with what Bootstrap has to offer. We also looked at how to customize Bootstrap to include the features you need and why minified versions are prefered.
+It then dealt with other frameworks, including [Bootstrap](http://getbootstrap.com/). To segment the knowledge of Bootstrap many quizzes were given. Finally went through how to customize Bootstrap to include only selected features and why minified versions are prefered.
 
 ### Responsive Web Design Fundamentals
 This block started off with a discussion about why responsiveness matters. We looked at sites on mobile and set up our workflow, using [Chrome's Dev Tools](https://developer.chrome.com/devtools) for device emulation as well as remote debugging on mobile devices.
