@@ -7,7 +7,7 @@ Replicate a design mockup using HTML and CSS. The site should be responsive and 
 The above guidelines came with quite an extensive project rubric including everything from design, responsiveness, seperation of concerns to code quality.
 
 ## Prerequisites
-This course is the longest of the program clocking in at 33.5 hours. It is made up of five blocks:
+This course is the longest of the program clocking in at 33.5 hours. It was made up of five blocks:
 
 * Sizing Elements
 * Intro to HTML and CSS
