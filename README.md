@@ -37,13 +37,13 @@ The fourth lesson in this block covered common responsive layouts and how these 
 The fifth and last lesson in this block covered responsive tables and once again introduced three design patterns for dealing with them: hidden columns, no more tables, and contained scrolling. It also covered how to make fonts responsive and defining minor breakpoints.
 
 ### Repsonsive Images
-The first lesson was basically a short repetition covering the importance of responsive images and how to setup remote debugging on mobile.
+The first lesson was a short repetition covering the importance of responsive images and how to setup remote debugging on mobile.
 
-The second lesson covered different ways to size images with CSS. It also introduced some lesser known CSS units. Apart from this it treated different types of images, like JPEG, PNG and SVG, and when to use which and why. Lastely it looked out how to optimize images and the related workflow using [Grunt](http://gruntjs.com/).
+The second lesson covered different ways to size images with CSS. It also introduced some lesser known CSS units. Apart from this it treated different types of images, like JPEG, PNG and SVG, and when to use which and why. Lastely it described how to optimize images and the related workflow using [Grunt](http://gruntjs.com/).
 
-The third lesson covered using markup as images. Everything from CSS background images, [Unicode symbol characters](http://unicode-table.com/en/#control-character) to [icon fonts](http://weloveiconfonts.com/).
+The third lesson covered using markup as images. It covered everything from CSS background images, [Unicode symbol characters](http://unicode-table.com/en/#control-character) to [icon fonts](http://weloveiconfonts.com/).
 
-The fourth and last lesson covered how to make fully responsive images using [the image element srcset and sizes attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img), the [picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) and [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source) elements. It also covered accessibility in regard to images.
+The fourth and last lesson covered how to make fully responsive images using [the image element srcset and sizes attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img), the [picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) and [source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source) elements. It also covered accessibility with regard to images.
 
 ## Solution
 Most concepts presented in the course I knew since before. But some of them were new to me, so I decided to stick with those when implementing the project to get experience using them.
