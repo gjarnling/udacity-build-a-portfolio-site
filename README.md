@@ -18,7 +18,7 @@ This course is the longest of the program clocking in at 33.5 hours. It is made 
 Below are a short summary of each block; just be adviced that this in no way is a comprehensive or detailed explanation of the content covered.
 
 ### Sizing Elements
-The first block covered [the CSS box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model) and [semantic elements in HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5). After this we were given a related problem set.
+The first block covered [the CSS box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model) and [semantic elements in HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5). It was followed by a related problem set.
 
 ### Intro to HTML and CSS
 The second block started with a repetition of HTML, CSS, and Boxes. It then went on to handle responsive layout and CSS Frameworks. To start off we created out own framework for responsive layouts.
