@@ -78,7 +78,7 @@ Of course all files used are valid [HTML5](https://www.w3.org/TR/html5/) and [CS
 #### Header
 The header contains a logo, my name and title. It also contains a image of an abstract painting.
 
-Their representation changes depending on the viewport size. For smaller viewports they are presented on top of each other; the logo, my name, my title and the painting one after the other. On larger viewports the logo moves to the left with my name and title to the right and the image now set as a background.
+The layout changes depending on the viewport size. For smaller viewports they are presented on top of each other; the logo, my name, my title and the painting one after the other. On larger viewports the logo moves to the left with my name and title to the right and the image now set as a background.
 
 In its original state the image is huge at 10.2MB with the dimensions 3390x3671 pixels. First I cropped it to only contain the part I wanted. This reduced the size to 2.23MB and the dimensions to 3390x1323 pixels. Since the content of the site never will grow larget than 1100 pixels I decided to set a maximum size of the image to 2200 pixel, to accomodate screens with a higher pixel density.
 
