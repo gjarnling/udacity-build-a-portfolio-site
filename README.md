@@ -26,13 +26,13 @@ The second block started with a repetition of HTML, CSS, and Boxes. Responsive l
 It then dealt with other frameworks, including [Bootstrap](http://getbootstrap.com/). To segment the knowledge of Bootstrap many quizzes were given. Finally went through how to customize Bootstrap to include only selected features and why minified versions are prefered.
 
 ### Responsive Web Design Fundamentals
-This block started off with a discussion about why responsiveness matters. We looked at sites on mobile and set up our workflow, using [Chrome's Dev Tools](https://developer.chrome.com/devtools) for device emulation as well as remote debugging on mobile devices.
+The third block started off with a discussion about why responsiveness matters and several web sites were showed on mobile. Then showed how to set up the workflow using [Chrome's Dev Tools](https://developer.chrome.com/devtools) for device emulation as well as remote debugging on mobile devices.
 
-We then looked at why starting small and building up is the way to go. It covered things like pixelation, DPR, CSS pixels, viewports and relative sizes. It also covered targets and tap target sizes.
+It then explained why starting small and building up is the way to go, covering things like pixelation, DPR, CSS pixels, viewports and relative sizes. Targets and tap target sizes were also discussed.
 
 Lesson three covered the use of media queries, how to pick breakpoints and why the content should be the guide of doing so. It also covered grids and how to set them up using [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes).
 
-The fourth lesson in this block covered common responsive layouts. In summary I really enjoyed this part and having this knowledge makes the transition from design to code a lot easier. The patterns covered were column drop, mostly fluid, layout shifter, and off canvas.
+The fourth lesson in this block covered common responsive layouts and how these make the transition from design to code a lot easier. The patterns covered were column drop, mostly fluid, layout shifter, and off canvas.
 
 The fifth and last lesson in this block covered responsive tables and once again introduced three design patterns for dealing with them: hidden columns, no more tables, and contained scrolling. It also covered how to make fonts responsive and defining minor breakpoints.
 
